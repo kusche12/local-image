@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, View, Image, Dimensions, Text } from 'react-native';
+import Images from '../images/Images';
 
 const Card = () => {
     return (
         <View style={styles.card}>
-            <Image source={require('./coffee1.jpeg')} style={styles.img} />
+            <Image source={Images.body.card} style={styles.img} />
             <Text style={styles.text}>Mocha</Text>
         </View>
     )

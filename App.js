@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
+import Images from './images/Images';
 import Card from './components/Card';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require('./central_perk_logo.jpeg')} style={styles.logo} />
+      <Image source={Images.logo} style={styles.logo} />
       <Text style={styles.text}>Try some of our most popular flavors!</Text>
       <Card />
     </View>
